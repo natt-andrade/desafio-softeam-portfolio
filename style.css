@@ -151,3 +151,17 @@ nav a:hover {
     color: #a0a0a0;
     line-height: 1.6;
 }
+
+footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #333;
+    text-align: center;
+    color: #666;
+    font-size: 0.85rem;
+}
+
+footer span {
+    color: #d8b4fe;
+    font-weight: bold;
+}
