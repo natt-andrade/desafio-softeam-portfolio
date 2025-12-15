@@ -165,3 +165,43 @@ footer span {
     color: #d8b4fe;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    .container-principal {
+        flex-direction: column;
+    }
+
+    .perfil-lateral, .area-projetos {
+        width: 100%;
+    }
+
+    .perfil-lateral {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .area-projetos {
+        padding: 2rem;
+    }
+
+    .conteudo-perfil h1 {
+        font-size: 2rem;
+    }
+
+    .subtitulo {
+        font-size: 1rem;
+    }
+
+    .foto-perfil {
+        width: 150px;
+        height: 150px;
+    }
+
+    nav {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    nav a {
+        margin: 0 0.5rem;
+    }
+}
